@@ -16,8 +16,9 @@
 </head>
 
 <body>
-<!-- wega -->
+<!-- wega chance -->
 	<img id="wega" src="assets/misc/wega.png" width="0" height="0">
+	<img id="luigi" src="assets/misc/luigi.jpg" width="0" height="0">
 <!-- the meat -->
 	<h1>TBOI Repentance Run Generator</h1>
 	<h2>Now with new halloween update!!</h2>
@@ -36,11 +37,20 @@
 
 <!-- wega button -->
 <script>
+let coinflip = Math.floor((Math.random() * 10) + 1);
+
 function scarybutton() {
-  document.getElementById("wega").style.height = "800"; 
-  document.getElementById("wega").style.width = "800";
-  var audio = new Audio('assets/misc/scream.mp3');
-  audio.play();
+	if (coinflip < 5) {
+		document.getElementById("wega").style.height = "800"; 
+		document.getElementById("wega").style.width = "800";
+		var audio = new Audio('assets/misc/scream.mp3');
+		audio.play();
+	}else{
+		document.getElementById("luigi").style.height = "800"; 
+		document.getElementById("luigi").style.width = "800";
+		var audio = new Audio('assets/misc/luigiscream.mp3');
+		audio.play();
+	}
 }
 </script>
 
