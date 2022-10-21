@@ -1,2 +1,2 @@
-# irg
-isaac run generator lol
+# :)
+making isaac run generator lol
