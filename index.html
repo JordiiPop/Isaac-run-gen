@@ -16,30 +16,57 @@
 </head>
 
 <body>
-<!-- wega chance -->
-	<img id="wega" src="assets/misc/wega.png" width="0" height="0">
-	<img id="luigi" src="assets/misc/luigi.jpg" width="0" height="0">
 <!-- the meat -->
 	<h1>TBOI Repentance Run Generator</h1>
-	<h2>Now with new halloween update!!</h2>
-	<p> be patient this is my first time making a website lmao :) <br> looks at you with my big gay eyes </p>
-		<img src="assets/characters/Isaac/isaac.png" alt="isaac staring at you" width="140" height="165" title="boo!!">
+	<p> ermm simply press the button below!! <img src="assets/characters/Isaac/specialist.gif" style="float:none;width:38px;height:38px;"> <br> ermm character only for a bit!! also only 10 of them im too lazy to add the rest rn</p>
+</body>
 
-	<p> me when i <img src="assets/characters/Isaac/specialist.gif" style="float:none;width:38px;height:38px;"> </p>
-
-	<img src="assets/characters/Isaac/isaachappy.gif" alt="isaac giving you a thumbs up :)" width="150" height="165">
-	
-
-	
-<!-- piss text -->
-<p> <mark>piss text no way</mark></p>
-
-
-<!-- wega button -->
+<!-- run gen shit-->
 <script>
-let coinflip = Math.floor((Math.random() * 10) + 1);
 
-function scarybutton() {
+
+
+
+<!--var character = 2
+var chr = document.createElement('img');
+function rungen() {
+	let character = Math.floor((Math.random() * 10) + 1);
+			if (character === 1) {
+				chr.src = 'assets/characters/Isaac/isaac.png';
+				document.body.appendChild(chr);
+			}else if (character === 2) {
+				chr.src ='assets/characters/Magdalene/magdalene.png';
+				document.body.appendChild(chr);
+			}else if (character === 3) {
+				chr.src ='assets/characters/Cain/cain.png';
+				document.body.appendChild(chr);
+			}else if (character === 4) {
+				chr.src ='assets/characters/Judas/judas.png';
+				document.body.appendChild(chr);
+			}else if (character === 5) {
+				chr.src ='assets/characters/Eve/eve.png';
+				document.body.appendChild(chr);
+			}else if (character === 6) {
+				chr.src ='assets/characters/Blue Baby/bluebaby.png';
+				document.body.appendChild(chr);
+			}else if (character === 7) {
+				chr.src ='assets/characters/Samson/samson.png';
+				document.body.appendChild(chr);
+			}else if (character === 8) {
+				chr.src ='assets/characters/Azazel/azazel.png';
+				document.body.appendChild(chr);
+			}else if (character === 9) {
+				chr.src ='assets/characters/Eden/eden.png';
+				document.body.appendChild(chr);
+			}else if (character === 10) {
+				chr.src ='assets/characters/Lazarus/lazarus.png';
+				document.body.appendChild(chr);
+			}
+		
+}
+
+
+function bossgen() {
 	if (coinflip < 5) {
 		document.getElementById("wega").style.height = "800"; 
 		document.getElementById("wega").style.width = "800";
@@ -52,11 +79,18 @@ function scarybutton() {
 		audio.play();
 	}
 }
+
+
+
+
+
 </script>
 
-<h1 style="background-color:red;"> DONT TOUCH THIS BUTTON YOU WILL DIE</h1>
-<button type="button" onclick="scarybutton()">scary button</button>
 
-</body>
+
+<button type="button" onclick="rungen()">Generate the thing</button>
+
+
+
 
 </html>
